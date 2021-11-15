@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="title">
+                Number Compare
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="number1">
+                First number
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="number" id="num1" placeholder="Enter the first number">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="number2">
+                Second number
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="number" id="num2" placeholder="Enter the second number">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button id="execute" onclick="Compare()">Compare!</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="output1"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="output2"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="output3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="title2">
+                Operations(add, subtract, multiply, divide)
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" id="operation" placeholder="Enter the operation">
+        </div>
+        <div class="col">
+            <button id="operate" onclick="Evaluate()"> Calculate </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="output4"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <button id="reload" onclick="Reload()">Reload</button>
+        </div>
+    </div>
+
+<script src= "app.js"></script>
+</body>
+</html>

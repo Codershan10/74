@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 1%;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    background: rgb(5, 46, 65);
+    color: white;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: 800;
+    margin: 3%;
+    margin-top: 7%;
+}
+
+button{
+    border-radius: 10px;
+    width:8vw;
+    height: 4vh;
+}
+
+input{
+    border-radius: 7px;
+    height: 4vh;
+    width: 12vw;
+}
